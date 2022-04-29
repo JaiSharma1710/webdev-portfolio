@@ -1,7 +1,7 @@
 body {
   height: 200rem;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 i {
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 .section-1-1 {
-  background-color: #393E46;
+  background-color: #393e46;
   margin-left: 100px;
   margin-right: 100px;
   height: 45rem;
@@ -67,7 +67,7 @@ nav a:hover {
   bottom: 550px;
   left: 670px;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .text-section h4 {
@@ -124,19 +124,19 @@ nav a:hover {
 
 .content p {
   font-size: 1.5rem;
-  color: #393E46;
+  color: #393e46;
 }
 
 .content li {
   font-size: 1.5rem;
   margin: 1rem 0;
-  color: #393E46;
+  color: #393e46;
 }
 
 .section-3 {
-  height: 200rem;
+  /* height: 200rem; */
   /* background-color: green; */
-  /* margin-top: 50px; */
+  margin-bottom: 8rem;
 }
 
 .section-3-content {
@@ -203,7 +203,7 @@ nav a:hover {
 }
 
 .section-4 {
-  height: 23rem;
+  height: 23.5rem;
   background-color: #222831;
 }
 
@@ -251,14 +251,35 @@ nav a:hover {
   top: 40px;
 }
 
-.cer{
-  display: block;
- margin-left: auto;
- margin-right: auto;
- width: 80%;
+.cer-head {
+  margin: 5rem 94.95px 5rem 94.95px;
+  color: white;
+  background-color: #222831;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px 0 #323232, 0 3px 10px 0 #323232;
 }
 
-/* media query */
+.certificate {
+  margin: 0 auto 5rem auto;
+  width: 50%;
+}
+
+.carousel-item {
+  border: 1px solid #333;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(17, 17, 17, 0.1) !important;
+  border-radius: 50px;
+}
+
+/* .carousel-inner {
+  padding: 0 8rem;
+} */
+
+/* media query----------------------------------------------------------------------------------------------------------- */
 @media (max-width: 1525px) {
   .text-section {
     width: 40%;
@@ -296,12 +317,12 @@ nav a:hover {
   .Footer-heading h1 {
     font-size: 2.5rem;
   }
-  .section-3{
-    height: 160rem;
+  .section-3 {
+    /* height: 160rem; */
   }
 }
 
-@media (max-width:1100px) {
+@media (max-width: 1100px) {
   nav a {
     margin: 0 2rem 0 2rem;
   }
@@ -319,7 +340,7 @@ nav a:hover {
 
   .section-3 {
     margin-top: 50px;
-    height: 160rem;
+    /* height: 160rem; */
   }
 
   .card {
@@ -331,7 +352,7 @@ nav a:hover {
   }
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   nav a {
     margin: 0 1rem 0 1rem;
   }
@@ -366,7 +387,7 @@ nav a:hover {
 
   .section-3 {
     margin-top: 100px;
-    height: 150rem;
+    /* height: 150rem; */
     /* background-color: red; */
   }
 
@@ -387,7 +408,7 @@ nav a:hover {
   }
 }
 
-@media (max-width:760px) {
+@media (max-width: 760px) {
   .section-2 h1 {
     font-size: 3rem;
   }
@@ -423,7 +444,7 @@ nav a:hover {
 
   .section-3 {
     margin-top: 150px;
-    height: 125rem;
+    /* height: 125rem; */
   }
 
   .section-3 h1 {
@@ -453,5 +474,21 @@ nav a:hover {
 
   .Footer-heading h1 {
     font-size: 2rem;
+  }
+
+  .cer-head {
+    font-size: 2rem;
+    margin: 2.5rem 94.95px 2.5rem 94.95px;
+    color: white;
+    background-color: #222831;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px 0 #323232, 0 3px 10px 0 #323232;
+  }
+
+  .certificate {
+    border: 1px solid #333;
+    margin: 0 auto 2.5rem auto;
+    width: 75%;
   }
 }
